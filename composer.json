@@ -1,0 +1,17 @@
+{
+    "name": "yeenughu/composer-test",
+    "authors": [
+        {
+            "name": "Yeenughu",
+            "email": "yeenughu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ComposerTest\\Test\\": "src"
+        }
+    }
+}
